@@ -1,6 +1,6 @@
 <div class="border-bottom row" style="margin-bottom:16px; padding-bottom:10px;">
   
-  <div class="col-9">
+  <div class="col-11">
     <h4 style="margin-bottom:4px;"> {{ job['title'] }} </h4>
     <div>
       <b>Location:</b> {{ job['location'] }} 
@@ -11,7 +11,7 @@
     </div>
     {% endif %}
   </div>
-  <div class="col-3">
-    <button type="button" class="btn btn-outline-primary">Apply</button>
+  <div class="col-1">
+    <a href="mailto:paravsharma02@gmail.com?subject=Application%20for%20{{job['title']}}&body=My%20name%3A%0D%0AMy%20resume%20link%3A%0D%0AMy%20linkedin%20profile%3A" type="button" class="btn btn-outline-primary float-right align-middle">Apply</a>
   </div>
 </div>
